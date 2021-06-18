@@ -1,0 +1,16 @@
+[ERROR] 2021-05-28 11:56:26.757 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 11:58:38.950 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:07:27.822 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:13:23.081 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:17:30.809 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:19:44.986 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:23:13.535 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:24:38.899 [main] BasicAuthenticator - Please check credential settings.
+[ERROR] 2021-05-28 12:45:14.977 [main] BasicAuthenticator - Authentication call to API https://developer.expert.ai/oauth2/token return error status 401
+[ERROR] 2021-05-28 12:45:30.856 [main] BasicAuthenticator - Authentication call to API https://developer.expert.ai/oauth2/token return error status 401
+[ERROR] 2021-05-28 12:46:19.669 [main] BasicAuthenticator - Authentication call to API https://developer.expert.ai/oauth2/token return error status 401
+[ERROR] 2021-06-03 14:10:13.961 [main] Analyzer - Analyze call to API https://nlapi.expert.ai/v2/analyze/standard/en return error status 500
+[ERROR] 2021-06-03 14:10:17.384 [main] Analyzer - Analyze call to API https://nlapi.expert.ai/v2/analyze/standard/en return error status 500
+[ERROR] 2021-06-03 14:10:20.817 [main] Analyzer - Analyze call to API https://nlapi.expert.ai/v2/analyze/standard/en return error status 500
+[ERROR] 2021-06-03 14:10:24.246 [main] Analyzer - Analyze call to API https://nlapi.expert.ai/v2/analyze/standard/en return error status 500
+[ERROR] 2021-06-03 14:10:27.649 [main] Analyzer - Analyze call to API https://nlapi.expert.ai/v2/analyze/standard/en return error status 500
