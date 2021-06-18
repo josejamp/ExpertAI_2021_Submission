@@ -169,7 +169,7 @@ if __name__ == "__main__":
     group.add_argument("-e", "--env",
                        dest="env_conf",
                        action="store_true",
-                       help="Get config from env vars.")
+                       help="Get config from env vars: [ES_HOST, ES_PORT], ES_USER, ES_PASSWORD")
 
     parser.add_argument("-f", "--file",
                         help="file to index",

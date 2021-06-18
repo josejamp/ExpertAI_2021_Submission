@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     group.add_argument("--index",
                        dest="index",
-                       help="elastic index name. require ENV config",
+                       help="elastic index name. require ENV config: [ES_HOST, ES_PORT], ES_USER, ES_PASSWORD",
                        action="store")
 
     parser.add_argument("-s", "--start-date",
@@ -200,7 +200,11 @@ if __name__ == "__main__":
         df.drop_duplicates(inplace=True)
         df.set_index('date', inplace=True)
         df.sort_index(inplace=True)
-        fname = save_candels(df, save_path, symbol=pair, ts_start=t_start_ms, ts_stop=t_stop_ms)
-        logger.info(f'Saved: {len(df.index)} rows in {fname}')
+        if args.datadir:
+            fname = save_candels(df, save_path, symbol=pair, ts_start=t_start_ms, ts_stop=t_stop_ms)
+            logger.info(f'Saved: {len(df.index)} rows in {fname}')
+        else:
+            es = indexer.elastic_from_env()
+            indexer.index_df(es, df, index_name=args.index)
 
     logger.info('Done retrieving data')
