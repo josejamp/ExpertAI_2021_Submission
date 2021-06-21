@@ -11,8 +11,8 @@ The following category applies to our project:
 Crypt0SenAI consists of the following independent modules:
 - Crawlers: multiple crawlers operate on different cryptocurrency related subreddits, the Yahoo Finance forums and checks on the Twitter account of cryptocurrency related personalities (Elon Musk). These crawlers were made in Java and run every four hours, saving the extracted information in json files.
 - Sentiment and entity extraction: a batch process runs periodically and makes a full language analysis of the extracted texts using the Expert.ai API. The full analysis is stored in a json file.
-- Elastic indexing:
-- Kibana dashboard:
+- Elastic indexing: the analyzed information stored ina json format is indexed on an Elastic platform.
+- Kibana dashboard: a Kibana dashboard is used to show the user the relevant information.
 
 ## Expert.ai functionality used
 This project uses Expert.ai to fully analyze texts, calling the *analyze* funciton of the *Analyzer* object. Currently, the dashboard emphasizes sentiment analysis and entities related to the cryptocurrencies. However, we prefer to have all the information Expert.ai can give us, so that in the future we may exploit different aspects retroactively.
@@ -24,4 +24,3 @@ This project uses Expert.ai to fully analyze texts, calling the *analyze* funcit
 - Twitter4j: to get the tweets of selected personalities
 - Elastic: repository of raw data and persistence of generated objects.
 - Kibana: dashboard platform.
-- 
