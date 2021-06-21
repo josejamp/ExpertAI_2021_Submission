@@ -22,6 +22,6 @@ This project uses Expert.ai to fully analyze texts, calling the *analyze* funcit
 - Python:
 - Selenium library: for crawling
 - Twitter4j: to get the tweets of selected personalities
-- Elastic:
-- Kibana:
+- Elastic: repository of raw data and persistence of generated objects.
+- Kibana: dashboard platform.
 - 
