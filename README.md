@@ -19,7 +19,7 @@ This project uses Expert.ai to fully analyze texts, calling the *analyze* funcit
 
 ## Technologies
 - Java: for the crawler code and Expert.ai API 
-- Python:
+- Python: indexing the json and data manipulation
 - Selenium library: for crawling
 - Twitter4j: to get the tweets of selected personalities
 - Elastic: repository of raw data and persistence of generated objects.
